@@ -1,7 +1,7 @@
 import express from 'express';
-import { rc6Encrypt, rc6Decrypt } from '../utils/rc6.js';
-import { hashWithBlake2 } from '../utils/blake2.js';
-import { generateRsaKeys, rsaEncrypt, rsaDecrypt } from '../utils/rsa.js';
+import { rc6Encrypt, rc6Decrypt } from '../../utils/rc6.js';
+import { hashWithBlake2 } from '../../utils/blake2.js';
+import { generateRsaKeys, rsaEncrypt, rsaDecrypt } from '../../utils/rsa.js';
 import base64url from 'base64url';
 
 const router = express.Router();
